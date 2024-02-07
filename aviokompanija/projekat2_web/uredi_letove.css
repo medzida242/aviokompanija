@@ -1,0 +1,122 @@
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  header {
+    padding: 20px;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    /* border: 2px solid rgba(0, 0, 255, 0.5); */
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    text-align: center;
+  }
+  label,input,select {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: auto; /* Add this line to center-align the input elements */
+  margin-right: auto; /* Add this line to center-align the input elements */
+}
+  form label,
+  form input[type="date"],
+  form input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  form input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+  }
+  
+  form input{
+    text-align: center;
+  }
+  h2 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .flight {
+    margin-bottom: 20px;
+    padding: 20px;
+    /* border: 2px solid rgba(0, 0, 255, 0.5); */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    
+  }
+  
+  .flight .flight-details {
+    flex: 1;
+  }
+  
+  .flight .flight-details span {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .flight .delete-button input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: none; /* Add this line to remove the shadow */
+  }
+  
+  .flight .delete-button input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    body {
+      background-size: contain;
+      background-attachment: scroll;
+    }
+  }
